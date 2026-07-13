@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "name": "黄春",
+  "display_name": "黄春 / Hwang Choon",
+  "version": "1.0.0",
+  "description": "一只戴长耳朵头套、披着黄色小披风的橙色伙伴。体型敦实，跑步动作幅度大、脚步较慢；最喜欢吃拉面，会期待香味、开心吃面，并在饱餐后满足地摸肚子。",
+  "artwork_notice": "Fan-made animated pet based on Hwang Choon. For personal, non-commercial use. Original character rights belong to their respective owner.",
+  "spritesheet": "spritesheet.webp",
+  "format": "webp",
+  "canvas": {
+    "width": 1536,
+    "height": 1872,
+    "columns": 8,
+    "rows": 9
+  },
+  "frame": {
+    "width": 192,
+    "height": 208,
+    "origin": "top-left",
+    "order": "row-major"
+  },
+  "animations": {
+    "idle": { "row": 0, "frames": 6 },
+    "run_right": { "row": 1, "frames": 8 },
+    "run_left": { "row": 2, "frames": 8 },
+    "interact_ramen": { "row": 3, "frames": 4 },
+    "jump": { "row": 4, "frames": 5 },
+    "failure": { "row": 5, "frames": 8 },
+    "wait_ramen": { "row": 6, "frames": 6 },
+    "eat_ramen": { "row": 7, "frames": 6 },
+    "satisfied_ramen": { "row": 8, "frames": 6 }
+  }
+}
